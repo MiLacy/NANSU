@@ -23,9 +23,9 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
         android:theme="@style/Theme.KernelSU"
-        android:zygotePreloadName="me.weishu.kernelsu.magica.AppZygotePreload">
+        android:zygotePreloadName="com.nannan.nansu.magica.AppZygotePreload">
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.nannan.nansucom.nannan.nansu.ui.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.KernelSU"
             android:windowSoftInputMode="adjustResize">
@@ -46,7 +46,7 @@
         </activity>
 
         <activity
-            android:name=".ui.webui.WebUIActivity"
+            android:name="com.nannan.nansu.ui.webui.WebUIActivity"
             android:autoRemoveFromRecents="true"
             android:configChanges="density|orientation|screenSize|screenLayout|smallestScreenSize|uiMode|locale|layoutDirection|fontScale|keyboard|keyboardHidden"
             android:documentLaunchMode="intoExisting"
@@ -72,7 +72,7 @@
             android:useAppZygote="true" />
 
         <service
-            android:name=".ui.util.DownloadService"
+            android:name="com.nannan.nansu.ui.util.DownloadService"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
 
@@ -86,7 +86,7 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="me.weishu.kernelsu.magica.LAUNCH" />
+                <action android:name="com.nannan.nansu.magica.LAUNCH" />
             </intent-filter>
         </receiver>
     </application>
