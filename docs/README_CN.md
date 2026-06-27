@@ -17,8 +17,8 @@
 - 基于内核的 `su` 和权限管理。
 - 基于 [metamodules](https://kernelsu.org/zh_CN/guide/metamodule.html) 的模块系统：可插拔的模块架构。
 - [App Profile](https://kernelsu.org/zh_CN/guide/app-profile.html): 把 Root 权限关进笼子里。
-- KPM 支持
-- 根据原版按需添加功能，保持代码简洁的同时更加原汁原味
+- KPM 支持。
+- 根据原版按需添加功能，保持代码简洁的同时更加原汁原味。
 
 ## KPM支持
 - 移植加入SukiSU Ultra实现的KPM功能,基于KernelPatch开发。
