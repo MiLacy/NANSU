@@ -1,4 +1,4 @@
-[English](README.md) | [Español](README_ES.md) | **简体中文** | [繁體中文](README_TW.md)
+[English](README.md) | **简体中文** | [繁體中文](README_TW.md)
 # NANSU
 
 <img src="https://kernelsu.org/logo.png" style="width: 96px;" alt="logo">
